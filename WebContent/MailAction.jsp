@@ -18,7 +18,8 @@
 
 	final String from = "rohitchoubey15847@gmail.com";
 
-	final String pass = "Rohit@991136";
+	final String pass = "Rohi";
+	//new cmt
 
 	// Defining the gmail host
 
