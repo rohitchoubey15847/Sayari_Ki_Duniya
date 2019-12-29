@@ -28,7 +28,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
-<%@ include file="header.jsp" %>
+
 <body style="background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);">
 	<%=request.getAttribute("Message")%>
 	<div class="container-contact100">
