@@ -191,14 +191,14 @@ body {
 
 		<div id="margin">
 			Title: <input id="title" type="text" name="title" minlength="10"
-				requried>
+				required>
 		</div>
 		<center>
 			<s:setDataSource var="con" driver="com.mysql.jdbc.Driver"
 				url="jdbc:mysql://localhost:3306/SayariKiDhuniya" user="root"
 				password="1234" scope="session" />
 			<s:query var="rs" dataSource="${con}"> select * from sayraikidhuniyatable </s:query>
-			<select id="text1" name="category" requried><option
+			<select id="text1" name="category" required> ><option
 					value="none">--None--</option>
 				<c:forEach var="item" items="${rs.rows}">
 					<option value="${item.SayariTableName}">${item. SayariTableName}</option>
@@ -208,7 +208,7 @@ body {
 				<textarea placeholder="Enter something funny." id="text" name="text"
 					rows="6"
 					style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px;"
-					required minlength="20"></textarea>
+					required minlength="20" required></textarea>
 				<br> <input id="button" type="submit" value="Create">
 			</div>
 		</center>
