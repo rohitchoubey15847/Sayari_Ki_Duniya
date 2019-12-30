@@ -25,7 +25,7 @@
 		else if (username.equals("admin") && password.equals("admin@123")) {
 			//session.setAttribute("session",UUID.randomUUID().toString().getBytes("UTF-8")); 
 			session.setAttribute("session", "TRUE");
-			RequestDispatcher req = request.getRequestDispatcher("LogIn.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("/LogIn.jsp");
 			req.include(request, response);
 
 		} 
